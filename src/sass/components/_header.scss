@@ -1,0 +1,12 @@
+.header {
+  height: 80rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba($gradient-purple, 1), rgba($gradient-red, 1));
+  background-size: cover;
+  background-position: center;
+  clip-path:polygon(0 0, 100% 0,100% 35rem, 0 100%);
+  z-index: -1;
+}

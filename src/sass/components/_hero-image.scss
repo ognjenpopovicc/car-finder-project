@@ -1,0 +1,17 @@
+
+  .hero-image {
+    width:100%;
+
+    &__container {
+      width: 85%;
+      position: absolute;
+      top: -30rem;
+      right: 50%;
+      transform: translate(50%);
+    }
+
+    @include respond(42.5em) { 
+      display: none;
+  }
+  }
+  

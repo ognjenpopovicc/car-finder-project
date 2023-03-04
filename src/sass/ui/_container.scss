@@ -1,0 +1,14 @@
+.container {
+  max-width: 80rem;
+  background-color: $main-white;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 6px 6px 25px 0px rgba(0,0,0,0.125);
+  padding: 6rem;
+  position: relative;
+
+  @include respond(28.125em) { 
+    padding: 3rem;
+    overflow: auto;
+  }
+}

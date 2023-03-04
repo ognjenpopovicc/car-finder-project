@@ -1,0 +1,31 @@
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  &__container {
+    height: 50rem !important;
+
+    @include respond(31.25em) { 
+      height: 35rem !important; 
+  }
+  }
+}
+
+.slider {
+  &__description {
+    margin-top: 2rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 400;
+  }
+
+  &__price {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    font-weight: 300;
+    color: $main-red-light;
+  }
+}

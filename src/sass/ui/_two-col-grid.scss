@@ -1,0 +1,8 @@
+.two-col-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @include respond(37.5em) { 
+    grid-template-columns: 1fr 
+}
+}

@@ -1,0 +1,64 @@
+.gap-mid {
+  gap: 3.5rem !important; 
+}
+
+.gap-small {
+  gap: 2rem !important; 
+}
+
+.double-field {
+  grid-column: 1 / 3 !important;
+
+  @include respond(37.5em) { 
+    grid-column: 1 / 2 !important
+}
+}
+
+.margin-top-large-large {
+  margin-top: 30rem !important;
+
+  @include respond(42.5em) { 
+    margin-top: 7rem !important;
+}
+}
+
+.margin-top-large-medium {
+  margin-top: 15rem !important; 
+}
+
+.margin-top-large-small {
+  margin-top: 8rem !important; 
+}
+
+.margin-top-small-small {
+  margin-top: 1.5rem !important;
+}
+
+.margin-top-small-medium {
+  margin-top: 4rem !important;
+}
+
+.margin-top-small-large {
+  margin-top: 10rem !important;
+}
+
+.padding-top-medium {
+  padding-top: 14rem !important;
+
+  @include respond(42.5em) { 
+    padding-top: 7rem !important;
+}
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.small-padding {
+  padding: 2rem !important;
+}
+
+.reset-link {
+  text-decoration: none;
+  color: $main-black;
+}
